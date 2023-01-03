@@ -133,3 +133,8 @@ Cascading Failures
     Use max flow min cut thm along with edmond karp thm
     ex. power grids, biochemical cascades, finance(systemic risks), traffic,,,
 
+Stochasitc block model(SBM)
+
+    G(n, p, q) given n is even and p > q
+    Have 2 "communites" each of size n/2 such that the probability of an edge existing between any two nodes within a community is p and the probability of an edge betwen the two communites is q.
+    Use mle to be able to find the 2 communities
